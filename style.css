@@ -1,0 +1,50 @@
+p {
+    font-family:  Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.header-bar {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    background-color: rgba(102, 66, 136, 0.986);
+    padding: 10px 10px 10px;
+}
+
+.left-section {
+    color: white;
+    font-weight: bold;
+}
+
+.middle-section {
+    max-width: 500px;
+}
+
+.search-bar {
+    width: 500px;
+    border: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+
+.download-button {
+    background-color: rgba(102, 66, 136, 0.986);
+    color: white;
+    border-color: white;
+    border: 1px solid;
+    padding: 5px 20px 5px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 16px;
+}
